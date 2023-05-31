@@ -1,0 +1,23 @@
+// Les variables SCSS
+$fz_h1: 3rem;
+$fz_h2: 2.5rem;
+$fz_nav_vignette: 1.5rem;
+
+
+// Utilisation de mixin
+@mixin wrapper {
+    max-width: 1500px;
+    margin-inline: auto;
+}
+
+@mixin gang_color {
+    color: #ff9d00;
+}
+
+//   import
+@import "partials/reset";
+@import "partials/header";
+@import "partials/main";
+@import "partials/footer";
+@import "partials/font_face";
+@import "partials/media_query"

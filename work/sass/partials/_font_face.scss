@@ -1,0 +1,22 @@
+
+/************ @font_face **************/
+/* BodegaSans 900 */
+@font-face {
+    font-family: "BodegaSans";
+    src: url("../ressources_1/fonts/BodegaSans_Black.ttf") format("TrueType");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  /* Font Awesome */
+  @font-face {
+    font-family: "FontAwesome";
+    src: url("../ressources_1/fonts/fontawesome-webfont.woff2") format("Woff2"),
+         url("../ressources_1/fonts/fontawesome-webfont.woff") format("Woff"),
+         url("../ressources_1/fonts/FontAwesome.otf") format("OpenType"),
+         url("../ressources_1/fonts/fontawesome-webfont.ttf") format("TrueType"),
+         url("../ressources_1/fonts/fontawesome-webfont.eot") format("Embedded OpenType"),
+         url("../ressources_1/fonts/fontawesome-webfont.svg") format("SVG Font");
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -1,0 +1,44 @@
+/*************************
+FOOTER
+************************/
+footer.footer {
+    margin: 2.5rem;
+    padding: 3rem 1.5rem;
+    box-shadow: 0 0 .5rem;
+    text-align: center;
+
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+
+        li {
+            flex-basis: calc((100% / 2) - 2rem);
+        }
+    }
+
+    h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    p {
+        line-height: 2;
+        color: #8aafc1;
+    }
+
+    a {
+        // display: block;
+        text-decoration: underline;
+        color: #fff;
+    }
+
+    img {
+        width: 75px;
+        margin: 3rem 0 0 0;
+    }
+
+}

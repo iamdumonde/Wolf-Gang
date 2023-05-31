@@ -1,0 +1,127 @@
+/*********************
+MAIN
+**********************/
+main.main {
+    article {
+        h1 {
+            margin-inline: 2.7rem;
+            text-transform: uppercase;
+            color: #fff;
+
+        }
+
+        .flexslider {
+            margin-inline: 2.5rem;
+        }
+    }
+
+    .span_gang {
+        @include gang_color;
+    }
+
+    section {
+        h2 {
+            margin-inline: 2.7rem;
+            padding: 1rem;
+            border-top: 3px solid rgba(168, 160, 160, 0.1);
+            border-left: 3px solid rgba(170, 157, 157, 0.1);
+            text-align: left;
+            text-transform: uppercase;
+            color: #fff;
+        }
+    }
+
+    .section_decouverte {
+        figure {
+            margin: 1rem 3.4rem;
+            padding-bottom: 0.5rem;
+            background-color: #fff;
+
+            .figure_span {
+                display: block;
+                margin-inline: 2rem;
+                padding: 0.5rem 1rem;
+                border-bottom: 3px solid #ff9d00;
+                text-align: center;
+                text-transform: uppercase;
+                @include gang_color;
+                font-family: "BodegaSans", sans-serif;
+                font-weight: 900;
+                font-size: 2rem;
+            }
+
+            figcaption {
+                margin: 0.8rem 2rem;
+
+                p {
+                    line-height: 2;
+                    text-align: center;
+                }
+
+                a {
+                    display: block;
+                    padding-block: 0.6rem;
+                    border: 1px solid #ff9d00;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    background-color: #ff9d00;
+                    color: #fff;
+                    transition: all 1.5s;
+
+                    &:hover {
+                        color: #ff9d00;
+                        background-color: #fff;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    .details_section {
+        text-align: center;
+        margin-block: 2rem;
+
+        p {
+            margin: 0 2.5rem;
+            line-height: 2;
+            color: #fff;
+        }
+
+        .icon_div {
+
+            display: flex;
+            flex-direction: column;
+            a {
+
+                i {
+                    display: inline-block;
+                    margin-block: 1rem;
+
+                    font-size: 2.5rem;
+                    color: #fff;
+                    transition: all 1.5s;
+
+                    &:hover {
+                        color: #ff9d00;
+                        transform: scale(1.5);
+                    }
+                }
+            }
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            margin-inline: auto;
+            padding: 1rem 2.5rem;
+        }
+    }
+}
+
+/** flexslider **/
+a.flex-prev,
+a.flex-next,
+.flex-control-nav {
+    display: none;
+}

@@ -1,0 +1,61 @@
+/***************************************************
+ Reset 
+ **************************************************/
+ *,
+ *::after,
+ *::before {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     margin: 0;
+     font-family: cursive;
+     line-height: 1.5;
+     background-image: url("../ressources_1/img/bg_body.svg");
+     background-color: #444;
+ }
+ 
+ 
+ .wrapper {
+     @include wrapper;
+ }
+ 
+ 
+ ul {
+     padding: 0;
+     margin: 0;
+     list-style-type: none;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ img {
+     max-width: 100%;
+     height: auto;
+ }
+ 
+ 
+ /*****************************************1
+ Typographie
+ ******************************************/
+ h1,
+ h2,
+ h3 {
+     font-family: "BodegaSans";
+     text-align: center;
+ }
+ 
+ h1 {
+     font-size: $fz_h1;
+ }
+ 
+ h2 {
+     font-size: $fz_h2;
+ }
+ 
+ nav {
+     font-size: $fz_nav_vignette;
+ }
+ 
